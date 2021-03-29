@@ -1,0 +1,12 @@
+{
+    "name": "gmaccario/simple-mvc-php-framework",
+    "description": "Simple MVC PHP framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "symfony/routing": "^4.4"
+    }
+}
