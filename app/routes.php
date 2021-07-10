@@ -22,7 +22,12 @@ try {
         }
     });
 
-    call_user_func_array(array('\\App\\Controllers\\' . $matcher['controller'], $matcher['method']), array_slice($matcher, 2, -1));
+    // https://github.com/gmaccario/simple-mvc-php-framework/issues/2
+    // Issue #2: Fix Non-static method ... should not be called statically
+    $className = '\\App\\Controllers\\' . $matcher['controller'];
+    $classInstance = new $className();
+
+    call_user_func_array(array($classInstance, $matcher['method']), array_slice($matcher, 2, -1));
 } catch (MethodNotAllowedException $e) {
     echo 'Route method is not allowed.';
 } catch (ResourceNotFoundException $e) {
