@@ -17,7 +17,7 @@
 	<section>
 		<h1>Homepage</h1>
 		<p>
-            <a href="/product/1">Check the first product</a>
+            <a href="<?php echo $routeToProduct ?>">Check the first product</a>
         </p>
 	<section>
 
