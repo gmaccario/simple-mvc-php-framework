@@ -22,7 +22,7 @@ After the installation on your local or container, run the following command:
 composer install
 ```
 
-Then:
+## On your own:
 1. Set up and run your webserver (e.g. Apache);
 2. Open your browser;
 3. Go to the index page (often localhost).
