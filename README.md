@@ -29,5 +29,5 @@ composer install
 
 **Note**: if you decided to put the framework into a subfolder, open */config/config.php* and set up the name of the subfolder here *URL_SUBFOLDER*
 
-## # Simple MVC PHP Framework on my blog
+## Simple MVC PHP Framework Tutorial
 https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/
