@@ -16,6 +16,12 @@ git clone https://github.com/gmaccario/simple-mvc-php-framework.git
 ```
 Or download the package from [Github](https://github.com/gmaccario/simple-mvc-php-framework).
 
+## Composer
+After the installation on your local or container, run the following command:
+```
+composer install
+```
+
 Then:
 1. Set up and run your webserver (e.g. Apache);
 2. Open your browser;
