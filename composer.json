@@ -4,7 +4,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "classmap": [
+            "app/"
+        ]
     },
     "require": {
         "symfony/routing": "^4.4",
